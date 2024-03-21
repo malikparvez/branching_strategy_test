@@ -12,8 +12,13 @@ jobs:
     steps:
       - name: Check out code
         uses: actions/checkout@v2
-        
+
+      - name: "Get version"
+        id: "get_version"
+        run: |
+          echo "version=$(grep -o "version = '[^']*'" .version | awk -F"'" '{print $2}' | tr -d \n)" >> $GITHUB_OUTPUT
+          
       - name: "Create release"
         run: |
-          gh release create v${{ github.event.inputs.version }} --title v${{ github.event.inputs.version }}
+          gh release create v${{ steps.get_version.outputs.version }} --title v${{ steps.get_version.outputs.version }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
