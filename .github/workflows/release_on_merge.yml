@@ -21,6 +21,6 @@ jobs:
       - name: "Create release"
         run: |
           gh release create v${{ steps.get_version.outputs.version }} --title v${{ steps.get_version.outputs.version }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  
