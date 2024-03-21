@@ -35,4 +35,15 @@ jobs:
           gh release create v${{ steps.get_version.outputs.version }} --title v${{ steps.get_version.outputs.version }} --target ${{ steps.get_version.outputs.base_branch }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+        # checkout latest release
+      - name: checkout current feature branch
+        if: steps.compare_versions.outputs.major_version_upgrade == 'false'
+        uses: actions/checkout@v4
+        with:
+          ref: "v${{ steps.get_version.outputs.version }}"
   
+      - name: "Read bug file"
+        id: "read_bug"
+        run: |
+            ls -lah
