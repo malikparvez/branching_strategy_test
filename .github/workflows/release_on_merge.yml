@@ -16,19 +16,25 @@ jobs:
       - name: "Get version"
         id: "get_version"
         run: |
-            version=$(grep -o "version = '[^']*'" .version | awk -F"'" '{print $2}')
-            echo "version=$version" >> $GITHUB_OUTPUT
-            first_one_digit=$(echo $version | cut -d'.' -f1)
-            last_two_digits=$(echo $version | rev | cut -d'.' -f-2 | rev)
-            if [[ $last_two_digits != "0.0" ]]; then
-              echo "minor"
-              echo $last_two_digits
-              echo "base_branch=$first_one_digit.0.0" >> $GITHUB_OUTPUT
-            else
-              echo "major"
-              echo $first_one_digit
+          version=$(grep -o "version = '[^']*'" .version | awk -F"'" '{print $2}')
+          echo "version=$version" >> $GITHUB_OUTPUT
+          latest_tag=$(curl -sL https://api.github.com/repos/${GITHUB_REPOSITORY}/tags | jq -r '.[0].name')
+          current_version=$(echo "$latest_tag" | cut -d'.' -f1 | sed 's/[^0-9]//g')
+          new_version=$(echo $version | cut -d'.' -f1)
+          echo "current_version=$current_version" >> $GITHUB_OUTPUT
+ 
+          if [ "$new_version" -gt "$current_version" ]; then
+              echo "new : $new_version"
+              echo "main"
+              echo "major_version_upgrade=true" >> $GITHUB_OUTPUT
               echo "base_branch=main" >> $GITHUB_OUTPUT
-            fi
+          else
+            echo $current_version.0.0
+            echo "current: $current_version"
+            echo "major_version_upgrade=false" >> $GITHUB_OUTPUT
+            echo "base_branch=$current_version.0.0" >> $GITHUB_OUTPUT
+          fi
+          
       - name: "Create release"
         run: |
           echo "$base_branch"
