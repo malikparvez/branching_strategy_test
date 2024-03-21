@@ -51,7 +51,7 @@ jobs:
           export GH_HOST=github.com
           gh extension install chelnak/gh-changelog
           gh changelog get --latest > OUTPUT.md
-          gh release upload v${{ steps.get_version.outputs.version }} OUTPUT.md
+          gh release edit v${{ steps.get_version.outputs.version }} -F OUTPUT.md
           ls -lah
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
