@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
+- Create f17 [#56](https://github.com/malikparvez/branching_strategy_test/pull/56) ([malikparvez](https://github.com/malikparvez))
 - Update release_on_merge.yml [#54](https://github.com/malikparvez/branching_strategy_test/pull/54) ([malikparvez](https://github.com/malikparvez))
 - Update release_on_merge.yml [#52](https://github.com/malikparvez/branching_strategy_test/pull/52) ([malikparvez](https://github.com/malikparvez))
 
