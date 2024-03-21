@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
+- Update release_on_merge.yml [#94](https://github.com/malikparvez/branching_strategy_test/pull/94) ([malikparvez](https://github.com/malikparvez))
 - Update release_on_merge.yml [#92](https://github.com/malikparvez/branching_strategy_test/pull/92) ([malikparvez](https://github.com/malikparvez))
 
 ## [v30.1.0](https://github.com/malikparvez/branching_strategy_test/tree/v30.1.0) - 2024-03-22
