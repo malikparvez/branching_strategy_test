@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org).
 
+## [v4.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v4.0.0) - 2024-03-21
+
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v3.0.0...v4.0.0)
+
+### Added
+
+- Create f5 [#8](https://github.com/malikparvez/branching_strategy_test/pull/8) ([malikparvez](https://github.com/malikparvez))
+- Create f4 [#6](https://github.com/malikparvez/branching_strategy_test/pull/6) ([malikparvez](https://github.com/malikparvez))
+
 ## [v3.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v3.0.0) - 2024-03-21
 
 [Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v2.0.0...v3.0.0)
