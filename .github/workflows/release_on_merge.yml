@@ -33,6 +33,8 @@ jobs:
         run: |
           echo "$base_branch"
           gh release create v${{ steps.get_version.outputs.version }} --title v${{ steps.get_version.outputs.version }} --target ${{ steps.get_version.outputs.base_branch }}
+          git branch
+          ls -lah
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
