@@ -1,0 +1,22 @@
+name: Pull Request Merge to Release Prep
+
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  run_on_merge:
+    #if: github.event.pull_request.merged && github.event.pull_request.base.ref == 'release-prep'
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true
+    
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+        
+      - name: "Create release"
+        run: |
+          gh release create v${{ github.event.inputs.version }} --title v${{ github.event.inputs.version }} --target ${{ steps.compare_versions.outputs.base_branch }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
