@@ -51,7 +51,13 @@ jobs:
           ls -lah
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+          
+      - name: "Setup ruby"
+        uses: "ruby/setup-ruby@v1"
+        with:
+          ruby-version: "3.1.2"
+          bundler-cache: "true"
+          
       - name: Install jq and bundle install
         run: |
            sudo apt-get install jq libjq-dev
