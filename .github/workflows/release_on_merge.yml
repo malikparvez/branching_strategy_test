@@ -27,13 +27,14 @@ jobs:
           if [[ $last_two_digits != "0.0" ]]; then
             echo "minor"
             echo $last_two_digits
-            base_branch="$fist_one_digit.0.0"
+            base_branch="${first_one_digit}.0.0"
           else
             echo "major"
             echo $fist_one_digit
             base_branch="main"
           fi
-          gh release create v${{ steps.get_version.outputs.version }} --title v${{ steps.get_version.outputs.version }} --target $base_branch
+          echo "$base_branch"
+          gh release create v${{ steps.get_version.outputs.version }} --title v${{ steps.get_version.outputs.version }} --target "$base_branch"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   
