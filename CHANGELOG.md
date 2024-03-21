@@ -5,7 +5,31 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org).
 
-## [v33.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v33.0.0) - 2024-03-21
+## [v34.1.0](https://github.com/malikparvez/branching_strategy_test/tree/v34.1.0) - 2024-03-21
+
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v34.0.0...v34.1.0)
+
+### Fixed
+
+- Create b34x [#104](https://github.com/malikparvez/branching_strategy_test/pull/104) ([malikparvez](https://github.com/malikparvez))
+
+## [v34.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v34.0.0) - 2024-03-22
+
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v33.1.0...v34.0.0)
+
+### Added
+
+- Create f34x [#102](https://github.com/malikparvez/branching_strategy_test/pull/102) ([malikparvez](https://github.com/malikparvez))
+
+## [v33.1.0](https://github.com/malikparvez/branching_strategy_test/tree/v33.1.0) - 2024-03-22
+
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v33.0.0...v33.1.0)
+
+### Fixed
+
+- Create b33x [#100](https://github.com/malikparvez/branching_strategy_test/pull/100) ([malikparvez](https://github.com/malikparvez))
+
+## [v33.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v33.0.0) - 2024-03-22
 
 [Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v32.0.0...v33.0.0)
 
@@ -194,7 +218,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [v17.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v17.0.0) - 2024-03-21
 
-[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v16.2.0...v17.0.0)
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v16.0.0...v17.0.0)
 
 ### Added
 
@@ -207,17 +231,17 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 - Create b2 [#37](https://github.com/malikparvez/branching_strategy_test/pull/37) ([malikparvez](https://github.com/malikparvez))
 - Create b1 [#35](https://github.com/malikparvez/branching_strategy_test/pull/35) ([malikparvez](https://github.com/malikparvez))
 
+## [v16.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v16.0.0) - 2024-03-21
+
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v16.2.0...v16.0.0)
+
 ## [v16.2.0](https://github.com/malikparvez/branching_strategy_test/tree/v16.2.0) - 2024-03-21
 
 [Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v16.1.0...v16.2.0)
 
 ## [v16.1.0](https://github.com/malikparvez/branching_strategy_test/tree/v16.1.0) - 2024-03-21
 
-[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v16.0.0...v16.1.0)
-
-## [v16.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v16.0.0) - 2024-03-21
-
-[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v15.0.0...v16.0.0)
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v15.0.0...v16.1.0)
 
 ### Added
 
@@ -225,7 +249,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [v15.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v15.0.0) - 2024-03-21
 
-[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v14.0.0...v15.0.0)
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v14.1.0...v15.0.0)
 
 ### Added
 
@@ -235,13 +259,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - Create b1 [#29](https://github.com/malikparvez/branching_strategy_test/pull/29) ([malikparvez](https://github.com/malikparvez))
 
-## [v14.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v14.0.0) - 2024-03-21
-
-[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v14.1.0...v14.0.0)
-
 ## [v14.1.0](https://github.com/malikparvez/branching_strategy_test/tree/v14.1.0) - 2024-03-21
 
-[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v13.0.0...v14.1.0)
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v14.0.0...v14.1.0)
+
+## [v14.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v14.0.0) - 2024-03-21
+
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v13.0.0...v14.0.0)
 
 ### Added
 
@@ -313,4 +337,4 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [v0.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v0.0.0) - 2024-03-21
 
-[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/3c6ee4ad3d3fefe2cf93dbe3125befd5a223c2c9...v0.0.0)
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/3a52a9830466a582120407f2749b19bce5bc99ba...v0.0.0)
