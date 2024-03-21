@@ -56,23 +56,23 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
-      - name: "Setup ruby"
-        uses: "ruby/setup-ruby@v1"
-        with:
-          ruby-version: "3.1.2"
-          bundler-cache: "true"
+      #- name: "Setup ruby"
+      #  uses: "ruby/setup-ruby@v1"
+      #  with:
+      #    ruby-version: "3.1.2"
+      #    bundler-cache: "true"
           
-      - name: Install jq and bundle install
-        run: |
-           sudo apt-get install jq libjq-dev
-           export RUBYJQ_USE_SYSTEM_LIBRARIES=1
-           bundle install
+      #- name: Install jq and bundle install
+      #  run: |
+      #     sudo apt-get install jq libjq-dev
+      #     export RUBYJQ_USE_SYSTEM_LIBRARIES=1
+      #     bundle install
 
-      - name: "Bundle environment"
-        run: |
-          echo ::group::bundler environment
-          bundle env
-          echo ::endgroup::
+      #- name: "Bundle environment"
+      #  run: |
+      #    echo ::group::bundler environment
+      #    bundle env
+      #   echo ::endgroup::
 
       - name: "Build a new release"
         run: |
