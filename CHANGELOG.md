@@ -5,12 +5,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org).
 
-## [v7.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v7.0.0) - 2024-03-21
+## [v8.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v8.0.0) - 2024-03-21
 
-[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v4.0.0...v7.0.0)
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v4.0.0...v8.0.0)
 
 ### Added
 
+- Update release_on_merge.yml [#16](https://github.com/malikparvez/branching_strategy_test/pull/16) ([malikparvez](https://github.com/malikparvez))
 - Update release_on_merge.yml [#14](https://github.com/malikparvez/branching_strategy_test/pull/14) ([malikparvez](https://github.com/malikparvez))
 - Create f7 [#12](https://github.com/malikparvez/branching_strategy_test/pull/12) ([malikparvez](https://github.com/malikparvez))
 - Create f6 [#10](https://github.com/malikparvez/branching_strategy_test/pull/10) ([malikparvez](https://github.com/malikparvez))
