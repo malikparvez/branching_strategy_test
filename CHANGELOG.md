@@ -5,7 +5,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org).
 
-## [v29.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v29.0.0) - 2024-03-21
+## [v30.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v30.0.0) - 2024-03-21
+
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v29.0.0...v30.0.0)
+
+### Added
+
+- Create Gemfile [#88](https://github.com/malikparvez/branching_strategy_test/pull/88) ([malikparvez](https://github.com/malikparvez))
+
+## [v29.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v29.0.0) - 2024-03-22
 
 [Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v28.0.0...v29.0.0)
 
