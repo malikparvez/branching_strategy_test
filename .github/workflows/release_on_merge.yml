@@ -34,7 +34,7 @@ jobs:
             base_branch="main"
           fi
           echo "$base_branch"
-          gh release create v${{ steps.get_version.outputs.version }} --title v${{ steps.get_version.outputs.version }} --target "$base_branch"
+          gh release create v${{ steps.get_version.outputs.version }} --title v${{ steps.get_version.outputs.version }} --target "${base_branch}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   
