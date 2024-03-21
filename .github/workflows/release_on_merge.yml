@@ -16,25 +16,23 @@ jobs:
       - name: "Get version"
         id: "get_version"
         run: |
-          echo "version=$(grep -o "version = '[^']*'" .version | awk -F"'" '{print $2}' | tr -d \n)" >> $GITHUB_OUTPUT
-          
-      - name: "Create release"
-        run: |
-          fist_one_digit=$(echo ${{ steps.get_version.outputs.version }} | cut -d'.' -f1)
-          last_two_digits=$(echo ${{ steps.get_version.outputs.version }} | rev | cut -d'.' -f-2 | rev)
-          version=$(grep -o "version = '[^']*'" .version | awk -F"'" '{print $2}')
+          version=$(grep -o "version = '[^']*'" .version | awk -F"'" '{print $2}' | tr -d \n)
+          echo "version=$($version)" >> $GITHUB_OUTPUT
+          fist_one_digit=$(echo $version | cut -d'.' -f1)
           last_two_digits=$(echo $version | rev | cut -d'.' -f-2 | rev)
           if [[ $last_two_digits != "0.0" ]]; then
             echo "minor"
             echo $last_two_digits
-            base_branch="${first_one_digit}.0.0"
+            echo "base_branch=$($first_one_digit.0.0)" >> $GITHUB_OUTPUT
           else
             echo "major"
             echo $fist_one_digit
-            base_branch="main"
+            echo "base_branch=$(main)" >> $GITHUB_OUTPUT
           fi
+      - name: "Create release"
+        run: |
           echo "$base_branch"
-          gh release create v${{ steps.get_version.outputs.version }} --title v${{ steps.get_version.outputs.version }} --target "${base_branch}"
+          gh release create v${{ steps.get_version.outputs.version }} --title v${{ steps.get_version.outputs.version }} --target ${{ steps.get_version.outputs.base_branch }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   
