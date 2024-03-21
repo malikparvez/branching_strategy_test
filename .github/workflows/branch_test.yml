@@ -1,0 +1,15 @@
+name: "Release Prep"
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "forge release prep"
+        required: true
+
+jobs:
+  release_prep:
+    uses: "malikparvez/forge-standards/.github/workflows/mod_release_prep.yml@main"
+    with:
+      version: "${{ github.event.inputs.version }}"
+    secrets: "inherit"
