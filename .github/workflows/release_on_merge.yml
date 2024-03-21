@@ -7,7 +7,7 @@ on:
 
 jobs:
   if_merged:
-    if: github.event.pull_request.merged == false && startsWith(github.head_ref, 'release-prep')
+    if: github.event.pull_request.merged == true && startsWith(github.head_ref, 'release-prep')
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
@@ -20,7 +20,7 @@ jobs:
           
       - name: "Create release"
         run: |
-          gh release create v${{ steps.get_version.outputs.version }} --title v${{ steps.get_version.outputs.version }}
+          gh release create v${{ steps.get_version.outputs.version }} --title v${{ steps.get_version.outputs.version }} --target 17.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   
