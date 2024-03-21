@@ -5,7 +5,23 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org).
 
-## [v30.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v30.0.0) - 2024-03-21
+## [v31.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v31.0.0) - 2024-03-21
+
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v30.1.0...v31.0.0)
+
+### Added
+
+- Update release_on_merge.yml [#92](https://github.com/malikparvez/branching_strategy_test/pull/92) ([malikparvez](https://github.com/malikparvez))
+
+## [v30.1.0](https://github.com/malikparvez/branching_strategy_test/tree/v30.1.0) - 2024-03-22
+
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v30.0.0...v30.1.0)
+
+### Fixed
+
+- Create b30x [#90](https://github.com/malikparvez/branching_strategy_test/pull/90) ([malikparvez](https://github.com/malikparvez))
+
+## [v30.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v30.0.0) - 2024-03-22
 
 [Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v29.0.0...v30.0.0)
 
