@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org).
 
+## [v27.1.0](https://github.com/malikparvez/branching_strategy_test/tree/v27.1.0) - 2024-03-21
+
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v26.1.0...v27.1.0)
+
+### Added
+
+- Create f27x [#82](https://github.com/malikparvez/branching_strategy_test/pull/82) ([malikparvez](https://github.com/malikparvez))
+
+## [v26.1.0](https://github.com/malikparvez/branching_strategy_test/tree/v26.1.0) - 2024-03-21
+
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v26.0.0...v26.1.0)
+
+### Fixed
+
+- Create b26x [#81](https://github.com/malikparvez/branching_strategy_test/pull/81) ([malikparvez](https://github.com/malikparvez))
+- Create b26x [#79](https://github.com/malikparvez/branching_strategy_test/pull/79) ([malikparvez](https://github.com/malikparvez))
+
 ## [v26.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v26.0.0) - 2024-03-21
 
 [Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v25.1.0...v26.0.0)
@@ -120,7 +137,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [v17.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v17.0.0) - 2024-03-21
 
-[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v16.1.0...v17.0.0)
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v16.2.0...v17.0.0)
 
 ### Added
 
@@ -133,13 +150,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 - Create b2 [#37](https://github.com/malikparvez/branching_strategy_test/pull/37) ([malikparvez](https://github.com/malikparvez))
 - Create b1 [#35](https://github.com/malikparvez/branching_strategy_test/pull/35) ([malikparvez](https://github.com/malikparvez))
 
-## [v16.1.0](https://github.com/malikparvez/branching_strategy_test/tree/v16.1.0) - 2024-03-21
-
-[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v16.2.0...v16.1.0)
-
 ## [v16.2.0](https://github.com/malikparvez/branching_strategy_test/tree/v16.2.0) - 2024-03-21
 
-[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v16.0.0...v16.2.0)
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v16.1.0...v16.2.0)
+
+## [v16.1.0](https://github.com/malikparvez/branching_strategy_test/tree/v16.1.0) - 2024-03-21
+
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v16.0.0...v16.1.0)
 
 ## [v16.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v16.0.0) - 2024-03-21
 
