@@ -37,14 +37,4 @@ jobs:
           ls -lah
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-        # checkout latest release
-      - name: checkout current feature branch
-        uses: actions/checkout@v4
-        with:
-          ref: "v${{ steps.get_version.outputs.version }}"
-  
-      - name: "Read bug file"
-        id: "read_bug"
-        run: |
-            ls -lah
+
