@@ -5,7 +5,23 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org).
 
-## [v35.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v35.0.0) - 2024-03-21
+## [v36.0.1](https://github.com/malikparvez/branching_strategy_test/tree/v36.0.1) - 2024-03-22
+
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v36.0.0...v36.0.1)
+
+### Fixed
+
+- Create b36x [#110](https://github.com/malikparvez/branching_strategy_test/pull/110) ([malikparvez](https://github.com/malikparvez))
+
+## [v36.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v36.0.0) - 2024-03-22
+
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v35.0.0...v36.0.0)
+
+### Added
+
+- Create f36x [#108](https://github.com/malikparvez/branching_strategy_test/pull/108) ([malikparvez](https://github.com/malikparvez))
+
+## [v35.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v35.0.0) - 2024-03-22
 
 [Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v34.1.0...v35.0.0)
 
@@ -345,4 +361,4 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [v0.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v0.0.0) - 2024-03-21
 
-[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/3c6ee4ad3d3fefe2cf93dbe3125befd5a223c2c9...v0.0.0)
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/b5970f98f0ee2ec389ace38b093aa3f4e34ca616...v0.0.0)
