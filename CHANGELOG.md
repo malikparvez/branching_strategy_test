@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org).
 
+## [v37.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v37.0.0) - 2024-03-22
+
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v36.0.1...v37.0.0)
+
+### Added
+
+- Create f37x [#112](https://github.com/malikparvez/branching_strategy_test/pull/112) ([malikparvez](https://github.com/malikparvez))
+
+## [v36.0.1](https://github.com/malikparvez/branching_strategy_test/tree/v36.0.1) - 2024-03-22
+
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v36.0.0...v36.0.1)
+
+### Fixed
+
+- Create b36x [#110](https://github.com/malikparvez/branching_strategy_test/pull/110) ([malikparvez](https://github.com/malikparvez))
+
 ## [v36.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v36.0.0) - 2024-03-22
 
 [Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v35.0.0...v36.0.0)
