@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org).
 
+## [v38.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v38.0.0) - 2024-03-23
+
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v37.0.0...v38.0.0)
+
+### Added
+
+- Create f38x [#114](https://github.com/malikparvez/branching_strategy_test/pull/114) ([malikparvez](https://github.com/malikparvez))
+
 ## [v37.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v37.0.0) - 2024-03-22
 
 [Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v36.0.1...v37.0.0)
