@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org).
 
+## [v41.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v41.0.0) - 2024-03-29
+
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v40.1.0...v41.0.0)
+
+### Added
+
+- Create f41x [#126](https://github.com/malikparvez/branching_strategy_test/pull/126) ([malikparvez](https://github.com/malikparvez))
+
+## [v40.1.0](https://github.com/malikparvez/branching_strategy_test/tree/v40.1.0) - 2024-03-27
+
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v40.0.0...v40.1.0)
+
+### Fixed
+
+- Create b40x [#124](https://github.com/malikparvez/branching_strategy_test/pull/124) ([malikparvez](https://github.com/malikparvez))
+
 ## [v40.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v40.0.0) - 2024-03-27
 
 [Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v39.1.0...v40.0.0)
