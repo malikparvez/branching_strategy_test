@@ -1,4 +1,4 @@
-name: Pull Request Merge to Release Prep
+name: Deploy release to production
 
 on:
   pull_request:
@@ -6,7 +6,7 @@ on:
       - closed
 
 jobs:
-  if_merged:
+  deploy:
     if: github.event.pull_request.merged == true && startsWith(github.head_ref, 'release-prep')
     runs-on: ubuntu-latest
     steps:
