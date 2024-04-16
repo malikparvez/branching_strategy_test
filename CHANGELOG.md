@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org).
 
+## [v43.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v43.0.0) - 2024-04-16
+
+[Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v42.0.0...v43.0.0)
+
 ## [v42.0.0](https://github.com/malikparvez/branching_strategy_test/tree/v42.0.0) - 2024-03-29
 
 [Full Changelog](https://github.com/malikparvez/branching_strategy_test/compare/v40.1.0...v42.0.0)
